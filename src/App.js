@@ -9,6 +9,8 @@ import "./index.css"
 import Navbar from './component/Navbar';
 import Education from './component/Education';
 import Dark from './component/Dark';
+import Project from './component/Project';
+import Contact from './component/Contact';
 
 function App() {
 
@@ -26,6 +28,8 @@ function App() {
           <Route path='/' element={<Home />} />
           <Route path='/about' element={<About />} />
           <Route path='/education' element={<Education />} />
+          <Route path='/project' element={<Project />} />
+          <Route path='/contact' element={<Contact />} />
         </Routes>
       </AnimatePresence>
       <Dark/>

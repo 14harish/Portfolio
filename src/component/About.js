@@ -1,19 +1,15 @@
 import React from "react";
-import Navbar from "./Navbar";
+
 import transition from "../transition";
-import Dark from "./Dark";
 import 'react-circular-progressbar/dist/styles.css';
 import Skills from "./Skills";
 
 function About() {
   
   return (
-    <div className="">
-      {/* <Dark /> */}
 
-     
     <div className="dark:bg-[#111111] bg-white dark:text-[white] text-[#616262] h-full">
-      {/* <section className="h-full"> */}
+
       <div className="sm:flex sm:flex-col sm:items-center sm:justify-center pt-20">
         <div className="relative flex items-center justify-center">
           <h1 className="sm:text-9xl  text-6xl font-extrabold absolute text-[#5d5d5d] opacity-20">RESUME</h1>
@@ -81,12 +77,8 @@ function About() {
       </div>
      </div>
      <Skills/>
-     {/* <Navbar/> */}
-     {/* <div className="sm:mt-0 mt-20 ml-10">
-        <Navbar />
-     </div> */}
+
     </div>
-     </div>
     
   );
 }

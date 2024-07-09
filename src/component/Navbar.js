@@ -11,7 +11,7 @@ function Navbar() {
   };
 
   return (
-    <div className='sm:fixed flex sm:flex-col sm:gap-4 gap-2 sm:top-64 sm:right-24 sm:w-10 mt-10 ml-10 sm:mt-0'>
+    <div className='sm:fixed flex sm:flex-col sm:gap-4 gap-2 sm:top-64 sm:right-24 sm:w-10 mt-10 ml-10 sm:mt-0 pb-4'>
       <button className="group flex items-center justify-start sm:w-11 sm:h-11 w-14 h-14 bg-[#FFB400] rounded-full cursor-pointer relative overflow-hidden transition-all duration-300 shadow-lg hover:w-32 active:translate-x-1 active:translate-y-1" onClick={() => { routePage("/") }}>
         <div className="flex items-center justify-center w-full transition-all duration-300 group-hover:justify-start group-hover:px-3">
           <MdHome size={24} color='white' />
@@ -36,7 +36,7 @@ function Navbar() {
           Education
         </div>
       </button>
-      <button className="group flex items-center justify-start sm:w-11 sm:h-11 w-14 h-14 dark:bg-[#2B2A2A] bg-gray-400 rounded-full cursor-pointer relative overflow-hidden transition-all duration-300 shadow-lg hover:w-32 active:translate-x-1 active:translate-y-1 hover:bg-[#FFB400] dark:hover:bg-[#FFB400]">
+      <button className="group flex items-center justify-start sm:w-11 sm:h-11 w-14 h-14 dark:bg-[#2B2A2A] bg-gray-400 rounded-full cursor-pointer relative overflow-hidden transition-all duration-300 shadow-lg hover:w-32 active:translate-x-1 active:translate-y-1 hover:bg-[#FFB400] dark:hover:bg-[#FFB400]"onClick={()=>{routePage("/project")}}>
         <div className="flex items-center justify-center w-full transition-all duration-300 group-hover:justify-start group-hover:px-3">
           <Si9Gag size={24} color='white' />
         </div>
@@ -44,7 +44,7 @@ function Navbar() {
           Project
         </div>
       </button>
-      <button className="group flex items-center justify-start sm:w-11 sm:h-11 w-14 h-14 dark:bg-[#2B2A2A] bg-gray-400 rounded-full cursor-pointer relative overflow-hidden transition-all duration-300 shadow-lg hover:w-32 active:translate-x-1 active:translate-y-1 hover:bg-[#FFB400] dark:hover:bg-[#FFB400]">
+      <button className="group flex items-center justify-start sm:w-11 sm:h-11 w-14 h-14 dark:bg-[#2B2A2A] bg-gray-400 rounded-full cursor-pointer relative overflow-hidden transition-all duration-300 shadow-lg hover:w-32 active:translate-x-1 active:translate-y-1 hover:bg-[#FFB400] dark:hover:bg-[#FFB400]"onClick={()=>{routePage("/contact")}}>
         <div className="flex items-center justify-center w-full transition-all duration-300 group-hover:justify-start group-hover:px-3">
           <IoMdMailOpen size={24} color='white' />
         </div>
