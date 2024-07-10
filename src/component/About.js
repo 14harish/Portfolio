@@ -10,7 +10,7 @@ function About() {
   
   return (
 
-    <div className="dark:bg-[#111111] bg-white dark:text-[white] text-[#616262] h-full">
+    <div className="dark:bg-[#111111] bg-white dark:text-[white] text-[#616262] h-full ">
 
       <div className="sm:flex sm:flex-col sm:items-center sm:justify-center pt-20">
         <div className="relative flex items-center justify-center">
@@ -35,9 +35,9 @@ function About() {
           <p className="text-lg sm:text-right">PROJECTS</p>
         </div>
       </div>
-      <div className="sm:text-right text-center sm:p-10 sm:ml-20 m-2">
+      <div className="sm:text-right text-center sm:p-10 sm:ml-20 sm:m-2 p-2">
         <h1 className="font-bold text-2xl mb-6">PERSONAL INFOS</h1>
-        <div className="flex">
+        <div className="sm:flex">
         <div className="">
         <p className="pb-4 text-[#B3B3B3]">
           <span className="font-semibold dark:text-white text-[#616262]">Harish :</span> First Name
@@ -72,7 +72,7 @@ function About() {
           <span className="font-semibold dark:text-white text-[#616262]">14 Feb 2003 :</span> DOB
         </p>
         <a href={Resume} download="Resume">
-        <div className="text-center flex justify-end">
+        <div className="text-center flex sm:justify-end justify-center">
           <button 
             type="submit" 
             className="relative overflow-hidden text-[#616262] dark:text-white rounded-full flex items-center gap-2 border border-[#FFB400] group hover:text-white mt-8"
@@ -88,9 +88,7 @@ function About() {
       </div>
      </div>
      <Skills/>
-
-    </div>
-    
+    </div>    
   );
 }
 

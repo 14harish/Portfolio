@@ -19,7 +19,7 @@ function Skills() {
   ];
 
   return (
-    <div className="dark:bg-[#111111] bg-white dark:text-[white] text-[#616262] sm:h-screen h-full pt-20">
+    <div className="dark:bg-[#111111] bg-white dark:text-[white] text-[#616262] sm:h-screen h-full pt-20 mr-6">
       <h1 className="font-semibold text-2xl mb-6 text-center">MY SKILLS</h1>
 
       <div className="grid grid-cols-3 md:grid-cols-4 gap-6 sm:pt-10 sm:pl-40 sm:pr-40 justify-center items-center">

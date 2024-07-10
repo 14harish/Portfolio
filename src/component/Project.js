@@ -6,6 +6,7 @@ import { IoLogoFirebase } from "react-icons/io5";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { TbJson } from "react-icons/tb";
 import { TiWeatherDownpour } from "react-icons/ti";
+import { motion } from 'framer-motion';
 
 import square from '../assets/Projects/square.png'
 import Weather from '../assets/Projects/Weather.png'
@@ -49,7 +50,7 @@ function Project() {
   ];
 
   return (
-    <div className='sm:h-screen h-full  dark:text-white text-[#616262]'>
+    <div className='sm:h-screen h-full dark:text-white text-[#616262]'>
       <div className="flex flex-col items-center justify-center pt-20">
         <div className="relative flex items-center justify-center">
           <h1 className="sm:text-9xl text-7xl font-extrabold absolute text-[#5d5d5d] opacity-20">WORK</h1>
@@ -59,9 +60,18 @@ function Project() {
             </h1>
           </div>
         </div>
-        <div className="flex sm:gap-12 gap-5 overflow-x-scroll w-5/6 mt-20 sm:mr-20 mr-0 sm:mb-0 mb-28 container cursor-pointer">
+        
+        <div className="flex sm:gap-12 gap-5 overflow-x-scroll sm:w-5/6 mt-20 sm:mr-20 mr-0 sm:mb-0 mb-28 container cursor-pointer pl-3">
+        
           {projectsData.map((project) => (
-            <div key={project.id} className="project-card dark:bg-[#252525] bg-[#F5F8FC] rounded-lg shadow-lg p-8 sm:min-w-96 min-w-72 overflow-hidden hover:scale-x-105 transition-transform duration-300 hover:text-[#FFB400]">
+             <motion.div
+             key={project.id}
+             initial={{ opacity: 0, x: 50 }}
+             whileInView={{ opacity: 1, x: 0 }}
+             transition={{ duration: 0.5, delay: project.id *0.00}}
+             className="project-card dark:bg-[#252525] bg-[#F5F8FC] rounded-lg shadow-lg p-8 min-w-96 overflow-hidden hover:scale-x-105 transition-transform duration-300 hover:text-[#FFB400]"
+         >
+            {/* <div key={project.id} className="project-card dark:bg-[#252525] bg-[#F5F8FC] rounded-lg shadow-lg p-8 min-w-96 overflow-hidden hover:scale-x-105 transition-transform duration-300 hover:text-[#FFB400]"> */}
               <a href={project.link} className="block">
                 <div className="relative overflow-hidden border-[#FFB400] border-b-4">
                   <img className="w-full h-48 transform scale-100 hover:scale-110 transition-transform duration-300" src={project.image} alt={project.title} />
@@ -74,7 +84,7 @@ function Project() {
                   ))}
                 </div>
               </a>
-            </div>
+            </motion.div>
           ))}
         </div>
       </div>
