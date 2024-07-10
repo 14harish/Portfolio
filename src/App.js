@@ -1,10 +1,9 @@
-import React,{useState, useEffect} from 'react';
+import React from 'react';
 import { Routes, Route, useLocation } from 'react-router-dom';
 
 import { AnimatePresence } from 'framer-motion';
 import Home from './component/Home';
 import About from './component/About';
-import Reference from './component/Reference';
 import "./index.css"
 import Navbar from './component/Navbar';
 import Education from './component/Education';
