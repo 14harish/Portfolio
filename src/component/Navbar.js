@@ -16,7 +16,7 @@ function Navbar() {
   const isActive = (path) => {
     return location.pathname === path;
   };
-  const isActivePortfolio = isActive("/Portfolio") || isActive("/Portfolio/");
+  const isActivePortfolio = isActive("/Portfolio") || isActive("/");
 
   const bgColor = isActivePortfolio ? "[#FFB400]" : "[#EEEEEE]";
   const darkBgColor = isActivePortfolio ? "[#FFB400]" : "[#2B2A2A]";
