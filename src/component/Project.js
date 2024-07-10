@@ -7,10 +7,10 @@ import { RiTailwindCssFill } from "react-icons/ri";
 import { TbJson } from "react-icons/tb";
 import { TiWeatherDownpour } from "react-icons/ti";
 
-import react from '../assets/Certficates/React.jpg'
 import square from '../assets/Projects/square.png'
 import Weather from '../assets/Projects/Weather.png'
 import chatbot from '../assets/Projects/chatbot.png'
+import portfolio from '../assets/Projects/portfolio.png'
 
 function Project() {
   const projectsData = [
@@ -41,7 +41,7 @@ function Project() {
     {
       "id": 4,
       "title": "Portfolio",
-      "image": react,
+      "image": portfolio,
       "description": "Created a user-friendly personal portfolio using React and Tailwind CSS to showcase professional achievements and skills effectively.",
       "stackIcons": [<FaReact />, <RiTailwindCssFill />], // Example icons for React and Tailwind CSS
       "link": "",
