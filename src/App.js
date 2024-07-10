@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useState, useEffect} from 'react';
 import { Routes, Route, useLocation } from 'react-router-dom';
 
 import { AnimatePresence } from 'framer-motion';
@@ -16,24 +16,26 @@ function App() {
 
   const location = useLocation();
 
-
   return (
+    
     <div className="
       h-full bg-gradient-linear dark:text-white text-black 
       dark:bg-[#111111] bg-[#FFFFFF]
       
     ">
-      <AnimatePresence mode='wait'>
-        <Routes location={location} key={location.pathname}>
-          <Route path='/' element={<Home />} />
-          <Route path='/about' element={<About />} />
-          <Route path='/education' element={<Education />} />
-          <Route path='/project' element={<Project />} />
-          <Route path='/contact' element={<Contact />} />
-        </Routes>
+     <AnimatePresence mode='wait'>
+          
+          <Routes location={location} key={location.pathname}>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/education" element={<Education />} />
+            <Route path="/project" element={<Project />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
       </AnimatePresence>
-      <Dark/>
-      <Navbar/>
+          <Navbar/>
+          <Dark/>
+      
     </div>
   );
 }

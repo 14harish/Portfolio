@@ -3,6 +3,8 @@ import React from "react";
 import transition from "../transition";
 import 'react-circular-progressbar/dist/styles.css';
 import Skills from "./Skills";
+import Resume from "../assets/Resume/Harish V Resume.pdf"
+import { FaCloudDownloadAlt } from "react-icons/fa";
 
 function About() {
   
@@ -67,11 +69,20 @@ function About() {
           <span className="font-semibold dark:text-white text-[#616262]">9952807662 :</span> Phone
         </p>
         <p className="pb-4 text-[#B3B3B3]">
-          <span className="font-semibold dark:text-white text-[#616262]">French, English :</span> Languages
+          <span className="font-semibold dark:text-white text-[#616262]">14 FEB 2003 :</span> DOB
         </p>
-        <button className="mt-8 bg-[#FFB400] px-4 py-2 rounded">
-         DOWNLOAD CV
-        </button>
+        <a href={Resume} download="Resume">
+        <div className="text-center flex justify-end">
+          <button 
+            type="submit" 
+            className="relative overflow-hidden text-[#616262] dark:text-white rounded-full flex items-center gap-2 border border-[#FFB400] group hover:text-white mt-8"
+          >
+          <span className="relative z-10 pl-6 py-2 font-semibold">DOWNLOAD CV</span>
+          <div className="absolute inset-0 bg-[#FFB400] transform translate-x-full group-hover:translate-x-0 transition-transform duration-300 ease-in-out"></div>
+          <span className='relative z-10 bg-[#FFB400] p-2 rounded-full'><FaCloudDownloadAlt size={24} color='white' /></span>
+      </button>
+    </div>
+        </a>
         </div>
         </div>
       </div>
