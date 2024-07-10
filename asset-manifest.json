@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.60b1c28e.css",
+    "main.js": "/Portfolio/static/js/main.5303edfc.js",
+    "static/media/java.jpg": "/Portfolio/static/media/java.8572efa7499d35b1c7c1.jpg",
+    "static/media/python.jpg": "/Portfolio/static/media/python.16fba3bf1eab63f3ddd7.jpg",
+    "static/media/chatbot.png": "/Portfolio/static/media/chatbot.bd43789c06b13a63ce05.png",
+    "static/media/Weather.png": "/Portfolio/static/media/Weather.6165eaf9d384d451aff7.png",
+    "static/media/React.jpg": "/Portfolio/static/media/React.fd0ef88aa6ebef80feb0.jpg",
+    "static/media/portfolio.png": "/Portfolio/static/media/portfolio.575e0835624b5b1cee33.png",
+    "static/media/Me.png": "/Portfolio/static/media/Me.97cc4da7fd997c4415bf.png",
+    "static/media/sql.jpg": "/Portfolio/static/media/sql.869838f64edd659d49e0.jpg",
+    "static/media/square.png": "/Portfolio/static/media/square.21e843f72a52b80bc9c9.png",
+    "static/media/Harish V Resume.pdf": "/Portfolio/static/media/Harish V Resume.22e88f7625fd01c7e7ae.pdf",
+    "index.html": "/Portfolio/index.html",
+    "main.60b1c28e.css.map": "/Portfolio/static/css/main.60b1c28e.css.map",
+    "main.5303edfc.js.map": "/Portfolio/static/js/main.5303edfc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.60b1c28e.css",
+    "static/js/main.5303edfc.js"
+  ]
+}
