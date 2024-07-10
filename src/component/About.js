@@ -69,7 +69,7 @@ function About() {
           <span className="font-semibold dark:text-white text-[#616262]">9952807662 :</span> Phone
         </p>
         <p className="pb-4 text-[#B3B3B3]">
-          <span className="font-semibold dark:text-white text-[#616262]">14 FEB 2003 :</span> DOB
+          <span className="font-semibold dark:text-white text-[#616262]">14 Feb 2003 :</span> DOB
         </p>
         <a href={Resume} download="Resume">
         <div className="text-center flex justify-end">
