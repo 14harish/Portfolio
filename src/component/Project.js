@@ -49,7 +49,7 @@ function Project() {
   ];
 
   return (
-    <div className='sm:h-screen h-[90vh]  dark:text-white text-[#616262]'>
+    <div className='sm:h-screen h-full  dark:text-white text-[#616262]'>
       <div className="flex flex-col items-center justify-center pt-20">
         <div className="relative flex items-center justify-center">
           <h1 className="sm:text-9xl text-7xl font-extrabold absolute text-[#5d5d5d] opacity-20">WORK</h1>

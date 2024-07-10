@@ -17,7 +17,7 @@ const routePage = (val) => {
   navigate(val);
 };
   return (
-    <div className="sm:flex sm:flex-row sm:pt-6 sm:h-screen h-[90vh] pt-36
+    <div className="sm:flex sm:flex-row sm:pt-6 sm:h-screen h-[100vh] pt-36
        sm:dark:bg-gradient-dark-back sm:bg-gradient-light-back 
       dark:bg-[#111111] bg-[#FFFFFF]
        ">

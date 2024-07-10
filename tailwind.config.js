@@ -6,6 +6,9 @@ module.exports = {
   darkMode:"class",
   theme: {
     extend: {
+      screens: {
+        xs: '410px', // Define the xs breakpoint
+      },
       backgroundImage: theme => ({
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic': 'conic-gradient(var(--tw-gradient-stops))',
