@@ -26,10 +26,10 @@ function App() {
           
           <Routes location={location} key={location.pathname}>
             <Route path="/Portfolio" element={<Home />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/education" element={<Education />} />
-            <Route path="/project" element={<Project />} />
-            <Route path="/contact" element={<Contact />} />
+            <Route path="/Portfolio/about" element={<About />} />
+            <Route path="/Portfolio/education" element={<Education />} />
+            <Route path="/Portfolio/project" element={<Project />} />
+            <Route path="/Portfolio/contact" element={<Contact />} />
           </Routes>
       </AnimatePresence>
           <Navbar/>
