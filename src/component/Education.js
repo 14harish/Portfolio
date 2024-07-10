@@ -8,9 +8,9 @@ function Education() {
     const timelineItems = [
         {
             year: '2024',
-            title: 'ENGINEERING DEGREE',
+            title: 'BACHELOR DEGREE',
             institution: 'K.S.R COLLEGE OF ENGINEERING',
-            description: '8.4',
+            description: 'BE-COMPUTER SCIENCE  CGPA:8.4',
             icon: <MdSchool className="text-white" size={32}/>,
         },
         {

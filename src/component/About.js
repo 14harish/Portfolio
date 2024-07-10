@@ -3,7 +3,7 @@ import React from "react";
 import transition from "../transition";
 import 'react-circular-progressbar/dist/styles.css';
 import Skills from "./Skills";
-import Resume from "../assets/Resume/Harish V Resume.pdf"
+import Resume from "../assets/Resume/Harish V Resume 1.pdf"
 import { FaCloudDownloadAlt } from "react-icons/fa";
 
 function About() {
