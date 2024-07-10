@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.86d605ea.css",
-    "main.js": "/Portfolio/static/js/main.ce80744d.js",
+    "main.js": "/Portfolio/static/js/main.49673fc0.js",
     "static/media/java.jpg": "/Portfolio/static/media/java.8572efa7499d35b1c7c1.jpg",
     "static/media/python.jpg": "/Portfolio/static/media/python.16fba3bf1eab63f3ddd7.jpg",
     "static/media/chatbot.png": "/Portfolio/static/media/chatbot.bd43789c06b13a63ce05.png",
@@ -14,10 +14,10 @@
     "static/media/Harish V Resume 1.pdf": "/Portfolio/static/media/Harish V Resume 1.bf40e165c7933ea31740.pdf",
     "index.html": "/Portfolio/index.html",
     "main.86d605ea.css.map": "/Portfolio/static/css/main.86d605ea.css.map",
-    "main.ce80744d.js.map": "/Portfolio/static/js/main.ce80744d.js.map"
+    "main.49673fc0.js.map": "/Portfolio/static/js/main.49673fc0.js.map"
   },
   "entrypoints": [
     "static/css/main.86d605ea.css",
-    "static/js/main.ce80744d.js"
+    "static/js/main.49673fc0.js"
   ]
 }
