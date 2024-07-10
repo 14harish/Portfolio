@@ -18,10 +18,10 @@ function Navbar() {
   };
   const isActivePortfolio = isActive("/Portfolio") || isActive("/Portfolio/");
 
-const bgColor = isActivePortfolio ? "#FFB400" : "#EEEEEE";
-const darkBgColor = isActivePortfolio ? "#FFB400" : "#2B2A2A";
+  const bgColor = isActivePortfolio ? "[#FFB400]" : "[#EEEEEE]";
+  const darkBgColor = isActivePortfolio ? "[#FFB400]" : "[#2B2A2A]";
 
-const className = `group flex items-center justify-start sm:w-11 sm:h-11 w-14 h-14 
+  const className = `group flex items-center justify-start sm:w-11 sm:h-11 w-14 h-14 
                    bg-${bgColor} dark:bg-${darkBgColor} text-[#666666] dark:text-white 
                    rounded-full cursor-pointer relative overflow-hidden transition-all 
                    duration-300 shadow-lg hover:w-32 active:translate-x-1 active:translate-y-1 
