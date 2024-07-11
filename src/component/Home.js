@@ -43,7 +43,7 @@ const routePage = (val) => {
           <button 
             type="submit" 
             className="relative overflow-hidden text-[#616262] dark:text-white rounded-full flex items-center gap-2 border border-[#FFB400] group hover:text-white mt-8"
-            onClick={()=>{routePage("/about")}}
+            onClick={()=>{routePage("/Portfolio/about")}}
           >
           <span className="relative z-10 pl-6 py-2 font-semibold">MORE ABOUT ME</span>
           <div className="absolute inset-0 bg-[#FFB400] transform translate-x-full group-hover:translate-x-0 transition-transform duration-300 ease-in-out"></div>
