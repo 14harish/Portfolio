@@ -12,6 +12,8 @@ import square from '../assets/Projects/square.png'
 import Weather from '../assets/Projects/Weather.png'
 import chatbot from '../assets/Projects/chatbot.png'
 import portfolio from '../assets/Projects/portfolio.png'
+import web from '../assets/Projects/web.png'
+import profile from '../assets/Projects/ProfileCard.png'
 
 function Project() {
   const projectsData = [
@@ -29,7 +31,7 @@ function Project() {
       "image": chatbot,
       "description": "Developed a ReactJS and NodeJS-based chatbot for streamlined communication on academic details, placements, and departmental rules, reducing response times by 40% for parent and student queries",
       "stackIcons": [<FaReact />, <FaNodeJs />, <TbJson />, <SiExpress />, <FaCss3Alt />], // Example icons for React and Node.js
-      "link": "https://github.com/14harish/ChatBotFinal",
+      "link": "https://department-chatbot-harish.web.app/",
     },
     {
       "id": 3,
@@ -41,11 +43,27 @@ function Project() {
     },
     {
       "id": 4,
+      "title": "Static Website",
+      "image": web,
+      "description": "During my GrappleTech internship, I developed a static website using React and Tailwind CSS. It highlighted the company's services and values with a modern, responsive design",
+      "stackIcons": [<FaReact />, <RiTailwindCssFill />], // Example icons for React and Tailwind CSS
+      "link": "https://intern-website-harish.web.app/",
+    },
+    {
+      "id": 5,
+      "title": "Profile Card Maker",
+      "image": profile,
+      "description": "The profile card maker contains a login page that takes the user input, processes the user details, and makes a card using those details. It contains the profile image of the user, and the user can download the profile card",
+      "stackIcons": [<FaReact />, <RiTailwindCssFill />,<FaNodeJs />,<SiExpress />, <TbJson />], // Example icons for React and Tailwind CSS
+      "link": "https://14harish.github.io/ProfileCardClient/",
+    },
+    {
+      "id": 6,
       "title": "Portfolio",
       "image": portfolio,
       "description": "Created a user-friendly personal portfolio using React and Tailwind CSS to showcase professional achievements and skills effectively.",
       "stackIcons": [<FaReact />, <RiTailwindCssFill />], // Example icons for React and Tailwind CSS
-      "link": "",
+      "link": "https://harishv-portfolio.web.app/",
     },
   ];
 
